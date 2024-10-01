@@ -1,0 +1,25 @@
+function saveData($d) {
+    setcookie("data", base64_encode(xor_encrypt(json_encode($d))));
+}
+
+Thay giá trị bên dưới vào giá trị của hàm setcookie()
+MGw7JCQ5OC04PT8jOSpqdmkgJ25nbCorKCEkIzlscm5oKC4qLSgubjY=
+
+
+Thì Kết quả cuối cùng mà thằng setcookie() sẽ là : 
+		array( "showpassword"=>"no", "bgcolor"=>"#ffffff")
+
+Xor trước hay xor sau ko quan trọng
+Bạn có thể thực hiện XOR'd văn bản thuần bằng khóa để lấy bản mã.
+Bạn có thể XOR bản mã bằng khóa để lấy văn bản thuần.
+Và, bạn có thể XOR bản mã (mà chúng tôi có) với văn bản thuần (mà bây giờ chúng tôi cũng có) để lấy khóa.
+
+Ở đây chúng ta không có key, nhưng chúng ta có thằng cookie(là thằng Ciphertext, đã được xor với key)
+Và có thằng văn bản thuần trước khi xor, chính là thằng 'array( "showpassword"=>"no", "bgcolor"=>"#ffffff")' + với việc base64_encode, sau đó json_encode nó -> sẽ là thằng văn bản thuần. 
+Mà trong thuật toán Xor ở trên, ta có thể xor 2 thằng này để có được thằng key
+Phải có thằng key, thì mình mới encode nó ra một cái cookie khác để giả mạo và truy cập hệ thống được.
+Sau khi có được thằng key, encode array( "showpassword"=>"yes", "bgcolor"=>"#ffffff")
+theo function setData và nhét vào cookie là xong.
+Có được thằng key là KNHL rồi
+Thì mình sẽ quay lại quá trình encode ra một cookie mới
+Bài này quá khó
