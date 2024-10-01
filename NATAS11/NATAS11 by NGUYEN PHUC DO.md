@@ -2,17 +2,13 @@
 
 - Log-in with user name : natas11 – password : `xxxxxxxxxxxxxxxxxxxxxxxxxx`
 
-![A screenshot of a computer
-
-Description automatically generated](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.001.png)
+![](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.001.png)
 
 - Click ViewSourceCode 
 
 **I/ REVIEW CODE** 
 
-![A screen shot of a computer code
-
-Description automatically generated](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.002.png)
+![](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.002.png)
 
 ![](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.003.png)
 
@@ -57,9 +53,7 @@ First, when I enter natas11, I get a header data from it.
 
 %3D is ‘=’ when url decode.
 
-![A screenshot of a computer
-
-Description automatically generated](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.004.png)
+![](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.004.png)
 
 Now, this lab is about XOR. I got a ciphertext, but the key is hidden,  I don’t know it.
 
@@ -88,9 +82,7 @@ Use PHP in VSCode
 
 This code is XOR 2 value ciphertext and plaintext
 
-![A screen shot of a computer program
-
-Description automatically generated](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.005.png)
+![](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.005.png)
 
 **Line 3 :** This is Ciphertext
 
@@ -100,9 +92,7 @@ Description automatically generated](./images/Aspose.Words.132666e3-16c6-4728-85
 
 The result is : 
 
-![A black background with blue and white text
-
-Description automatically generated](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.006.png)
+![](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.006.png)
 
 ![](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.007.png)This may a ‘KNHL’ with loop because note this code : 
 
@@ -114,9 +104,7 @@ Okey I got a key is  `KNHL`
 
 Now I continue use VSCode to find a new cookie.
 
-![A screen shot of a computer program
-
-Description automatically generated](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.008.png)
+![](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.008.png)
 
 **Line 3 :** I replace the key base64\_decode () before, change it to this key I found `KNHL`.
 
@@ -124,16 +112,12 @@ Description automatically generated](./images/Aspose.Words.132666e3-16c6-4728-85
 
 Ok this result is new cookie to exploit.
 
-![A black background with white text
-
-Description automatically generated](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.009.png)
+![](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.009.png)
 
 MGw7JCQ5OC04PT8jOSpqdmk3LT9pYmouLC0nICQ8anZpbS4qLSguKmkz
 
 Copy it and paste in http header and send, I solved this lab!
 
-![A screenshot of a computer
-
-Description automatically generated](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.010.png)
+![](./images/Aspose.Words.132666e3-16c6-4728-859d-15f7fa5105d1.010.png)
 
 - Thanks for reading ! 
